@@ -141,6 +141,21 @@ The uplink channel path loss was modelled using the CommsChannel block in System
 2. Final Simulations in SystemVue
    - Simulated overall system performance in SystemVue(Tx, Channel Loss and Rx) and tuned parameters to meet requirements from Tx input to Rx output
    - Validated design meets system requirements
+  
+**Final Parameters**
+- PA
+  - NF: 12dB
+  - Gain: 10dB
+  - OIP3: 47dBm
+- Driver
+  - NF: 8dB
+  - Gain: 15dB
+  - OIP3: 35dBm
+- RF VGA
+  - NF: 12dB
+  - Gain Lower: 6.2dB
+  - Gain Upper: 17.2dB
+  - OIP3: 35dBm
 ### Simulations
 **Rx Output at min sensitivity**
 *Tx Pout = ~19.5dBm*
